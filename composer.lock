@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f7b77a5eff97c17ef7416159427a969",
-    "content-hash": "c4a9bb575b714fb7901c0c49f9012211",
+    "hash": "108bd33e31cc5e7b1e1aff2f3f385637",
+    "content-hash": "b7c064bcc398101a2a5dad0ae2f49ff3",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -151,16 +151,16 @@
         },
         {
             "name": "cebe/markdown",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab"
+                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
-                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
+                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
                 "shasum": ""
             },
             "require": {
@@ -207,7 +207,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-06-20 21:09:53"
+            "time": "2016-09-14 20:40:20"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -255,16 +255,16 @@
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "dev-master",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "e882cc327a6935a41f2e8665b9ef0317f6852d4d"
+                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/e882cc327a6935a41f2e8665b9ef0317f6852d4d",
-                "reference": "e882cc327a6935a41f2e8665b9ef0317f6852d4d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/7452fd908a5023b8bb5ea1b123a174ca080de464",
+                "reference": "7452fd908a5023b8bb5ea1b123a174ca080de464",
                 "shasum": ""
             },
             "require": {
@@ -298,22 +298,129 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2016-06-05 20:34:32"
+            "time": "2016-02-06 00:49:24"
         }
     ],
     "packages-dev": [
         {
-            "name": "cebe/indent",
-            "version": "dev-master",
+            "name": "bower-asset/chai",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cebe/indent.git",
-                "reference": "0f33ba3cb567726a726e7024072232839a0d7cd0"
+                "url": "https://github.com/chaijs/chai.git",
+                "reference": "57c85f624a7e19ffaf1a2c7d07d81180db17bec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/indent/zipball/0f33ba3cb567726a726e7024072232839a0d7cd0",
-                "reference": "0f33ba3cb567726a726e7024072232839a0d7cd0",
+                "url": "https://api.github.com/repos/chaijs/chai/zipball/57c85f624a7e19ffaf1a2c7d07d81180db17bec7",
+                "reference": "57c85f624a7e19ffaf1a2c7d07d81180db17bec7",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "chai.js",
+                "bower-asset-ignore": [
+                    "build",
+                    "components",
+                    "lib",
+                    "node_modules",
+                    "support",
+                    "test",
+                    "index.js",
+                    "Makefile",
+                    ".*"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "chai",
+                "test",
+                "testing"
+            ]
+        },
+        {
+            "name": "bower-asset/leche",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/box/leche.git",
+                "reference": "fc74432f48145f5d59525b392c9a382611417bd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/box/leche/zipball/fc74432f48145f5d59525b392c9a382611417bd3",
+                "reference": "fc74432f48145f5d59525b392c9a382611417bd3",
+                "shasum": ""
+            },
+            "type": "bower-asset-library"
+        },
+        {
+            "name": "bower-asset/mocha",
+            "version": "v3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mochajs/mocha.git",
+                "reference": "205e31b0d43e395e5ae14c43d2a915254ef5f360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mochajs/mocha/zipball/205e31b0d43e395e5ae14c43d2a915254ef5f360",
+                "reference": "205e31b0d43e395e5ae14c43d2a915254ef5f360",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "mocha.js",
+                    "mocha.css"
+                ],
+                "bower-asset-ignore": [
+                    "bin",
+                    "editors",
+                    "images",
+                    "lib",
+                    "scripts",
+                    "test",
+                    "assets",
+                    "media",
+                    ".*",
+                    "index.js",
+                    "karma.conf.js",
+                    "browser-entry.js",
+                    "Makefile",
+                    "package.json",
+                    "appveyor.yml"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "simple, flexible, fun test framework",
+            "keywords": [
+                "bdd",
+                "mocha",
+                "tap",
+                "tdd",
+                "test"
+            ]
+        },
+        {
+            "name": "cebe/indent",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/indent.git",
+                "reference": "c500ed74d30ed2d7e085f9cf07f8092d32d70776"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/indent/zipball/c500ed74d30ed2d7e085f9cf07f8092d32d70776",
+                "reference": "c500ed74d30ed2d7e085f9cf07f8092d32d70776",
                 "shasum": ""
             },
             "bin": [
@@ -327,24 +434,26 @@
             "authors": [
                 {
                     "name": "Carsten Brandt",
-                    "email": "mail@cebe.cc"
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
                 }
             ],
             "description": "a small tool to convert text file indentation",
-            "time": "2015-11-22 14:46:59"
+            "time": "2014-05-23 14:40:08"
         },
         {
             "name": "doctrine/instantiator",
-            "version": "dev-master",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "416fb8ad1d095a87f1d21bc40711843cd122fd4a"
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/416fb8ad1d095a87f1d21bc40711843cd122fd4a",
-                "reference": "416fb8ad1d095a87f1d21bc40711843cd122fd4a",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d",
                 "shasum": ""
             },
             "require": {
@@ -385,11 +494,954 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2016-03-31 10:24:22"
+            "time": "2015-06-14 21:17:01"
+        },
+        {
+            "name": "npm-asset/formatio",
+            "version": "1.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/formatio/-/formatio-1.1.1.tgz",
+                "reference": null,
+                "shasum": "5ed3ccd636551097383465d996199100e86161e9"
+            },
+            "require": {
+                "npm-asset/samsam": "~1.1"
+            },
+            "require-dev": {
+                "npm-asset/buster": "*"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "https://github.com/busterjs/formatio/issues"
+                },
+                "npm-asset-main": "./lib/formatio",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "https://github.com/busterjs/formatio.git"
+                },
+                "npm-asset-scripts": {
+                    "test": "node node_modules/buster/bin/buster-test --node",
+                    "test-debug": "node --debug-brk node_modules/buster/bin/buster-test --node"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Christian Johansen"
+                },
+                {
+                    "name": "Christian Johansen",
+                    "email": "christian@cjohansen.no",
+                    "url": "http://cjohansen.no"
+                },
+                {
+                    "name": "August Lilleaas",
+                    "email": "august.lilleaas@gmail.com",
+                    "url": "http://augustl.com"
+                },
+                {
+                    "name": "Dave Geddes",
+                    "email": "davidcgeddes@gmail.com"
+                },
+                {
+                    "name": "Stein Magnus Jodal",
+                    "email": "stein.magnus@jodal.no"
+                },
+                {
+                    "name": "Tek Nynja",
+                    "email": "github@teknynja.com"
+                }
+            ],
+            "description": "Human-readable object formatting",
+            "homepage": "http://busterjs.org/docs/formatio/"
+        },
+        {
+            "name": "npm-asset/inherits",
+            "version": "2.0.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
+                "reference": null,
+                "shasum": "b17d08d326b4423e568eff719f91b0b1cbdf69f1"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "https://github.com/isaacs/inherits/issues"
+                },
+                "npm-asset-main": "./inherits.js",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git://github.com/isaacs/inherits"
+                },
+                "npm-asset-scripts": {
+                    "test": "node test"
+                }
+            },
+            "license": [
+                "ISC"
+            ],
+            "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+            "keywords": [
+                "browser",
+                "browserify",
+                "class",
+                "inheritance",
+                "inherits",
+                "klass",
+                "object-oriented",
+                "oop"
+            ]
+        },
+        {
+            "name": "npm-asset/lolex",
+            "version": "1.3.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/lolex/-/lolex-1.3.2.tgz",
+                "reference": null,
+                "shasum": "7c3da62ffcb30f0f5a80a2566ca24e45d8a01f31"
+            },
+            "require-dev": {
+                "npm-asset/browserify": ">=5.9,<6",
+                "npm-asset/jslint": ">=0.6.6,<0.7.0",
+                "npm-asset/mocha": ">=1.21,<2",
+                "npm-asset/mochify": ">=1.0,<2",
+                "npm-asset/referee": "~1.0",
+                "npm-asset/sinon": "~1.10"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "http://github.com/sinonjs/lolex/issues"
+                },
+                "npm-asset-main": "./src/lolex.js",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git+ssh://git@github.com/sinonjs/lolex.git"
+                },
+                "npm-asset-scripts": {
+                    "lint": "$(npm bin)/jslint src/**/*.js",
+                    "test-node": "mocha -R dot",
+                    "test-headless": "mochify",
+                    "test-cloud": "mochify --wd",
+                    "test": "npm run lint && npm run test-node && npm run test-headless && npm run test-cloud",
+                    "bundle": "browserify -s lolex -o lolex.js src/lolex.js"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Johansen"
+                }
+            ],
+            "description": "Fake JavaScript timers",
+            "homepage": "http://github.com/sinonjs/lolex"
+        },
+        {
+            "name": "npm-asset/samsam",
+            "version": "1.1.2",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/samsam/-/samsam-1.1.2.tgz",
+                "reference": null,
+                "shasum": "bec11fdc83a9fda063401210e40176c3024d1567"
+            },
+            "require-dev": {
+                "npm-asset/buster": "0.6.11"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "https://github.com/busterjs/samsam/issues"
+                },
+                "npm-asset-main": "./lib/samsam",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "https://github.com/busterjs/samsam.git"
+                },
+                "npm-asset-scripts": {
+                    "test": "node test/samsam-test.js",
+                    "test-debug": "node --debug-brk test/samsam-test.js"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Christian Johansen"
+                },
+                {
+                    "name": "Christian Johansen",
+                    "email": "christian@cjohansen.no",
+                    "url": "http://cjohansen.no"
+                },
+                {
+                    "name": "August Lilleaas",
+                    "email": "august.lilleaas@gmail.com",
+                    "url": "http://augustl.com"
+                },
+                {
+                    "name": "Daniel Wittner",
+                    "email": "d.wittner@gmx.de",
+                    "url": "https://github.com/dwittner"
+                }
+            ],
+            "description": "Value identification and comparison functions",
+            "homepage": "http://busterjs.org/docs/buster-assertions"
+        },
+        {
+            "name": "npm-asset/sinon",
+            "version": "1.17.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/sinon/-/sinon-1.17.6.tgz",
+                "reference": null,
+                "shasum": "a43116db59577c8296356afee13fafc2332e58e1"
+            },
+            "require": {
+                "npm-asset/formatio": "1.1.1",
+                "npm-asset/lolex": "1.3.2",
+                "npm-asset/samsam": "1.1.2",
+                "npm-asset/util": ">=0.10.3,<1"
+            },
+            "require-dev": {
+                "npm-asset/buster": "0.7.18",
+                "npm-asset/buster-core": ">=0.6.4,<0.7.0",
+                "npm-asset/buster-istanbul": "0.1.13",
+                "npm-asset/eslint": "0.24.0",
+                "npm-asset/eslint-config-defaults": ">=2.1.0,<3.0.0",
+                "npm-asset/jscs": "1.13.1",
+                "npm-asset/npm-run-all": ">=2.3.0,<3.0.0",
+                "npm-asset/pre-commit": "1.0.10",
+                "npm-asset/rimraf": ">=2.5.4,<3.0.0"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "http://github.com/cjohansen/Sinon.JS/issues"
+                },
+                "npm-asset-files": [
+                    "lib",
+                    "pkg",
+                    "AUTHORS",
+                    "CONTRIBUTING.md",
+                    "Changelog.txt",
+                    "LICENSE",
+                    "README.md"
+                ],
+                "npm-asset-main": "./lib/sinon.js",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git+ssh://git@github.com/cjohansen/Sinon.JS.git"
+                },
+                "npm-asset-scripts": {
+                    "build": "./build",
+                    "check-clean-wd": "./scripts/is-clean-wd.sh",
+                    "clean": "rimraf pkg",
+                    "ci-test": "npm run lint && ./scripts/ci-test.sh",
+                    "test": "./scripts/ci-test.sh",
+                    "lint": "eslint .",
+                    "prepublish": "npm-run-all check-clean-wd clean build",
+                    "eslint-pre-commit": "./scripts/eslint-pre-commit"
+                },
+                "npm-asset-engines": {
+                    "node": ">=0.1.103"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Johansen"
+                },
+                {
+                    "name": "Christian Johansen",
+                    "email": "christian@cjohansen.no"
+                },
+                {
+                    "name": "Morgan Roderick",
+                    "email": "morgan@roderick.dk"
+                },
+                {
+                    "name": "Maximilian Antoni",
+                    "email": "mail@maxantoni.de"
+                },
+                {
+                    "name": "ben hockey",
+                    "email": "neonstalwart@gmail.com"
+                },
+                {
+                    "name": "Carl-Erik Kopseng",
+                    "email": "carlerik@gmail.com"
+                },
+                {
+                    "name": "Phred",
+                    "email": "fearphage@gmail.com"
+                },
+                {
+                    "name": "Tim Fischbach",
+                    "email": "mail@timfischbach.de"
+                },
+                {
+                    "name": "Tim Ruffles",
+                    "email": "timruffles@googlemail.com"
+                },
+                {
+                    "name": "Jonathan Sokolowski",
+                    "email": "jonathan.sokolowski@gmail.com"
+                },
+                {
+                    "name": "Domenic Denicola",
+                    "email": "domenic@domenicdenicola.com"
+                },
+                {
+                    "name": "Tim Perry",
+                    "email": "pimterry@gmail.com"
+                },
+                {
+                    "name": "Andreas Lind",
+                    "email": "andreas@one.com"
+                },
+                {
+                    "name": "William Sears",
+                    "email": "MrBigDog2U@gmail.com"
+                },
+                {
+                    "name": "Felix Geisendörfer",
+                    "email": "felix@debuggable.com"
+                },
+                {
+                    "name": "Bryan Donovan",
+                    "email": "bdondo@gmail.com"
+                },
+                {
+                    "name": "kpdecker",
+                    "email": "kpdecker@gmail.com"
+                },
+                {
+                    "name": "Keith Cirkel",
+                    "email": "github@keithcirkel.co.uk"
+                },
+                {
+                    "name": "Luis Cardoso",
+                    "email": "luis.cardoso@feedzai.com"
+                },
+                {
+                    "name": "Tobias Ebnöther",
+                    "email": "ebi@gorn.ch"
+                },
+                {
+                    "name": "Cory",
+                    "email": "seeflanigan@gmail.com"
+                },
+                {
+                    "name": "Martin Sander",
+                    "email": "forke@uni-bonn.de"
+                },
+                {
+                    "name": "Andrew Gurinovich",
+                    "email": "altmind@gmail.com"
+                },
+                {
+                    "name": "Tristan Koch",
+                    "email": "tristan.koch@1und1.de"
+                },
+                {
+                    "name": "Konrad Holowinski",
+                    "email": "konrad.holowinski@gmail.com"
+                },
+                {
+                    "name": "Benjamin Coe",
+                    "email": "ben@yesware.com"
+                },
+                {
+                    "name": "Travis Kaufman",
+                    "email": "travis.kaufman@gmail.com"
+                },
+                {
+                    "name": "Marten Lienen",
+                    "email": "marten.lienen@gmail.com"
+                },
+                {
+                    "name": "ben fleis",
+                    "email": "ben.fleis@gmail.com"
+                },
+                {
+                    "name": "Garrick Cheung",
+                    "email": "garrick@garrickcheung.com"
+                },
+                {
+                    "name": "Gavin Huang",
+                    "email": "gravof@gmail.com"
+                },
+                {
+                    "name": "zcicala",
+                    "email": "zcicala@fitbit.com"
+                },
+                {
+                    "name": "Jonny Reeves",
+                    "email": "github@jonnyreeves.co.uk"
+                },
+                {
+                    "name": "Tamas Szebeni",
+                    "email": "tamas_szebeni@epam.com"
+                },
+                {
+                    "name": "August Lilleaas",
+                    "email": "august.lilleaas@gmail.com"
+                },
+                {
+                    "name": "Cormac Flynn",
+                    "email": "cormac.flynn@viadeoteam.com"
+                },
+                {
+                    "name": "Duncan Beevers",
+                    "email": "duncan@dweebd.com"
+                },
+                {
+                    "name": "Garrick",
+                    "email": "gcheung@fitbit.com"
+                },
+                {
+                    "name": "Glen Mailer",
+                    "email": "glen.mailer@bskyb.com"
+                },
+                {
+                    "name": "Jason Miller",
+                    "email": "jasonmiller@synacor.com"
+                },
+                {
+                    "name": "Jmeas",
+                    "email": "jellyes2@gmail.com"
+                },
+                {
+                    "name": "Ming Liu",
+                    "email": "vmliu1@gmail.com"
+                },
+                {
+                    "name": "Robin Pedersen",
+                    "email": "robinp@snap.tv"
+                },
+                {
+                    "name": "Roman Potashow",
+                    "email": "justgook@gmail.com"
+                },
+                {
+                    "name": "Scott Andrews",
+                    "email": "scothis@gmail.com"
+                },
+                {
+                    "name": "Soutaro Matsumoto",
+                    "email": "matsumoto@soutaro.com"
+                },
+                {
+                    "name": "Thomas Meyer",
+                    "email": "meyertee@gmail.com"
+                },
+                {
+                    "name": "geries",
+                    "email": "geries.handal@videoplaza.com"
+                },
+                {
+                    "name": "Satoshi Nakamura",
+                    "email": "snakamura@infoteria.com"
+                },
+                {
+                    "name": "Alexander Schmidt",
+                    "email": "alexanderschmidt1@gmail.com"
+                },
+                {
+                    "name": "Jason Karns",
+                    "email": "jason.karns@gmail.com"
+                },
+                {
+                    "name": "Victor Costan",
+                    "email": "costan@gmail.com"
+                },
+                {
+                    "name": "Brandon Heyer",
+                    "email": "brandonheyer@gmail.com"
+                },
+                {
+                    "name": "Marcus Hüsgen",
+                    "email": "marcus.huesgen@lusini.com"
+                },
+                {
+                    "name": "Márton Salomváry",
+                    "email": "salomvary@gmail.com"
+                },
+                {
+                    "name": "Jonathan Freeman",
+                    "email": "freethejazz@gmail.com"
+                },
+                {
+                    "name": "Simen Bekkhus",
+                    "email": "sbekkhus91@gmail.com"
+                },
+                {
+                    "name": "Alex Urbano",
+                    "email": "asgaroth.belem@gmail.com"
+                },
+                {
+                    "name": "Irina Dumitrascu",
+                    "email": "me@dira.ro"
+                },
+                {
+                    "name": "yoshimura-toshihide",
+                    "email": "toshihide0105yoshimura@gmail.com"
+                },
+                {
+                    "name": "Spencer Elliott",
+                    "email": "me@elliottsj.com"
+                },
+                {
+                    "name": "Devin Weaver",
+                    "email": "suki@tritarget.org"
+                },
+                {
+                    "name": "なつき",
+                    "email": "i@ntk.me"
+                },
+                {
+                    "name": "Martin Hansen",
+                    "email": "martin@martinhansen.no"
+                },
+                {
+                    "name": "gtothesquare",
+                    "email": "me@gerieshandal.com"
+                },
+                {
+                    "name": "Patrick van Vuuren",
+                    "email": "patrick@proforto.nl"
+                },
+                {
+                    "name": "Matt Kern",
+                    "email": "matt@bloomcrush.com"
+                },
+                {
+                    "name": "Jeffrey Falgout",
+                    "email": "jeffrey.falgout@gmail.com"
+                },
+                {
+                    "name": "G.Serebryanskyi",
+                    "email": "x5x3x5x@gmail.com"
+                },
+                {
+                    "name": "mohayonao",
+                    "email": "mohayonao@gmail.com"
+                },
+                {
+                    "name": "Max Calabrese",
+                    "email": "max.calabrese@ymail.com"
+                },
+                {
+                    "name": "Farid Neshat",
+                    "email": "FaridN_SOAD@yahoo.com"
+                },
+                {
+                    "name": "James Barwell",
+                    "email": "jb@jamesbarwell.co.uk"
+                },
+                {
+                    "name": "Henry Tung",
+                    "email": "henryptung@gmail.com"
+                },
+                {
+                    "name": "vitalets",
+                    "email": "vitalets@yandex-team.ru"
+                },
+                {
+                    "name": "Josh Graham",
+                    "email": "josh@canva.com"
+                },
+                {
+                    "name": "Michael Jackson",
+                    "email": "mjijackson@gmail.com"
+                },
+                {
+                    "name": "Mikolaj Banasik",
+                    "email": "d1sover@gmail.com"
+                },
+                {
+                    "name": "stevesouth",
+                    "email": "stephen.south@caplin.com"
+                },
+                {
+                    "name": "Mustafa Sak",
+                    "email": "mustafa.sak@1und1.de"
+                },
+                {
+                    "name": "Nicholas Stephan",
+                    "email": "nicholas.stephan@gmail.com"
+                },
+                {
+                    "name": "Nikita Litvin",
+                    "email": "deltaidea@derpy.ru"
+                },
+                {
+                    "name": "Niklas Andreasson",
+                    "email": "eaglus_@hotmail.com"
+                },
+                {
+                    "name": "Olmo Maldonado",
+                    "email": "olmo.maldonado@gmail.com"
+                },
+                {
+                    "name": "Paul Carduner",
+                    "email": "paulcarduner@gmail.com"
+                },
+                {
+                    "name": "Blake Israel",
+                    "email": "blake.israel@gatech.edu"
+                },
+                {
+                    "name": "Rajeesh C V",
+                    "email": "cvrajeesh@gmail.com"
+                },
+                {
+                    "name": "Raynos",
+                    "email": "raynos2@gmail.com"
+                },
+                {
+                    "name": "Robert Hurst",
+                    "email": "rhurst@e-xact.com"
+                },
+                {
+                    "name": "till",
+                    "email": "till@php.net"
+                },
+                {
+                    "name": "Rodion Vynnychenko",
+                    "email": "roddiku@gmail.com"
+                },
+                {
+                    "name": "Ryan Wholey",
+                    "email": "rjwholey@gmail.com"
+                },
+                {
+                    "name": "wwalser",
+                    "email": "waw325@gmail.com"
+                },
+                {
+                    "name": "Sergio Cinos",
+                    "email": "scinos@atlassian.com"
+                },
+                {
+                    "name": "Shawn Krisman",
+                    "email": "skrisman@nodelings"
+                },
+                {
+                    "name": "Shinnosuke Watanabe",
+                    "email": "snnskwtnb@gmail.com"
+                },
+                {
+                    "name": "Simone Fonda",
+                    "email": "fonda@netseven.it"
+                },
+                {
+                    "name": "Gyandeep Singh",
+                    "email": "gyandeeps@gmail.com"
+                },
+                {
+                    "name": "Søren Enemærke",
+                    "email": "soren.enemaerke@gmail.com"
+                },
+                {
+                    "name": "TEHEK Firefox",
+                    "email": "tehek@tehek.net"
+                },
+                {
+                    "name": "AJ Ortega",
+                    "email": "ajo@google.com"
+                },
+                {
+                    "name": "Tek Nynja",
+                    "email": "github@teknynja.com"
+                },
+                {
+                    "name": "Tim Branyen",
+                    "email": "tim@tabdeveloper.com"
+                },
+                {
+                    "name": "Blake Embrey",
+                    "email": "hello@blakeembrey.com"
+                },
+                {
+                    "name": "Blaine Bublitz",
+                    "email": "blaine@iceddev.com"
+                },
+                {
+                    "name": "Antonio D'Ettole",
+                    "email": "antonio@brandwatch.com"
+                },
+                {
+                    "name": "Timo Tijhof",
+                    "email": "krinklemail@gmail.com"
+                },
+                {
+                    "name": "Ali Shakiba",
+                    "email": "ali@shakiba.me"
+                },
+                {
+                    "name": "Alfonso Boza",
+                    "email": "alfonso@cloud.com"
+                },
+                {
+                    "name": "Volkan Ozcelik",
+                    "email": "volkan.ozcelik@jivesoftware.com"
+                },
+                {
+                    "name": "Will Butler",
+                    "email": "will@butlerhq.com"
+                },
+                {
+                    "name": "William Meleyal",
+                    "email": "w.meleyal@wollzelle.com"
+                },
+                {
+                    "name": "Alexander Aivars",
+                    "email": "alex@aivars.se"
+                },
+                {
+                    "name": "Xiao Ma",
+                    "email": "x@medium.com"
+                },
+                {
+                    "name": "Alex Kessaris",
+                    "email": "alex@artsy.ca"
+                },
+                {
+                    "name": "charlierudolph",
+                    "email": "charles.w.rudolph@gmail.com"
+                },
+                {
+                    "name": "clint",
+                    "email": "clint@wealthfront.com"
+                },
+                {
+                    "name": "goligo",
+                    "email": "ich@malte.de"
+                },
+                {
+                    "name": "hashchange",
+                    "email": "heim@zeilenwechsel.de"
+                },
+                {
+                    "name": "jamestalmage",
+                    "email": "james.talmage@jrtechnical.com"
+                },
+                {
+                    "name": "kbackowski",
+                    "email": "kbackowski@gmail.com"
+                },
+                {
+                    "name": "Adrian Phinney",
+                    "email": "adrian.phinney@bellaliant.net"
+                },
+                {
+                    "name": "Gavin Boulton",
+                    "email": "gavin.boulton@digital.cabinet-office.gov.uk"
+                },
+                {
+                    "name": "Gilad Peleg",
+                    "email": "giladp007@gmail.com"
+                },
+                {
+                    "name": "Giorgos Giannoutsos",
+                    "email": "contact@nuc.gr"
+                },
+                {
+                    "name": "ngryman",
+                    "email": "ngryman@gmail.com"
+                },
+                {
+                    "name": "Gord Tanner",
+                    "email": "gord@tinyhippos.com"
+                },
+                {
+                    "name": "Gordon L. Hempton",
+                    "email": "ghempton@gmail.com"
+                },
+                {
+                    "name": "Sven Fuchs",
+                    "email": "svenfuchs@artweb-design.de"
+                },
+                {
+                    "name": "Harry Wolff",
+                    "email": "hswolff@gmail.com"
+                },
+                {
+                    "name": "Ian Lewis",
+                    "email": "IanMLewis@gmail.com"
+                },
+                {
+                    "name": "Ian Thomas",
+                    "email": "ian@ian-thomas.net"
+                },
+                {
+                    "name": "James Beavers",
+                    "email": "jamesjbeavers@gmail.com"
+                },
+                {
+                    "name": "Jan Kopriva",
+                    "email": "jan.kopriva@gooddata.com"
+                },
+                {
+                    "name": "Jan Suchý",
+                    "email": "jan.sandokan@gmail.com"
+                },
+                {
+                    "name": "Jason Anderson",
+                    "email": "diurnalist@gmail.com"
+                },
+                {
+                    "name": "Adam Hull",
+                    "email": "adam@hmlad.com"
+                },
+                {
+                    "name": "simonzack",
+                    "email": "simonzack@gmail.com"
+                },
+                {
+                    "name": "John Bernardo",
+                    "email": "jbernardo@linkedin.com"
+                },
+                {
+                    "name": "Eric Wendelin",
+                    "email": "ewendelin@twitter.com"
+                },
+                {
+                    "name": "Eli White",
+                    "email": "github@eli-white.com"
+                },
+                {
+                    "name": "Jordan Hawker",
+                    "email": "hawker.jordan@gmail.com"
+                },
+                {
+                    "name": "Joscha Feth",
+                    "email": "jfeth@atlassian.com"
+                },
+                {
+                    "name": "Joseph Spens",
+                    "email": "joseph@workmarket.com"
+                },
+                {
+                    "name": "Dmitriy Kubyshkin",
+                    "email": "grassator@gmail.com"
+                },
+                {
+                    "name": "Kevin Turner",
+                    "email": "kevin@decipherinc.com"
+                },
+                {
+                    "name": "Kim Joar Bekkelund",
+                    "email": "kjbekkelund@gmail.com"
+                },
+                {
+                    "name": "Kris Kowal",
+                    "email": "kris.kowal@cixar.com"
+                },
+                {
+                    "name": "Kurt Ruppel",
+                    "email": "me@kurtruppel.com"
+                },
+                {
+                    "name": "Lars Thorup",
+                    "email": "lars@zealake.com"
+                },
+                {
+                    "name": "Luchs",
+                    "email": "Luchs@euirc.eu"
+                },
+                {
+                    "name": "Daryl Lau",
+                    "email": "daryl@goodeggs.com"
+                },
+                {
+                    "name": "Marco Ramirez",
+                    "email": "marco-ramirez@bankofamerica.com"
+                },
+                {
+                    "name": "Mario Pareja",
+                    "email": "mpareja@360incentives.com"
+                },
+                {
+                    "name": "Martin Brochhaus",
+                    "email": "mbrochh@gmail.com"
+                },
+                {
+                    "name": "Burak Yiğit Kaya",
+                    "email": "ben@byk.im"
+                },
+                {
+                    "name": "Max Klymyshyn",
+                    "email": "klymyshyn@gmail.com"
+                },
+                {
+                    "name": "Brian M Hunt",
+                    "email": "brianmhunt@gmail.com"
+                }
+            ],
+            "description": "JavaScript test spies, stubs and mocks.",
+            "homepage": "http://sinonjs.org/"
+        },
+        {
+            "name": "npm-asset/util",
+            "version": "0.10.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/util/-/util-0.10.3.tgz",
+                "reference": null,
+                "shasum": "7afb1afe50805246489e3db7fe0ed379336ac0f9"
+            },
+            "require": {
+                "npm-asset/inherits": "2.0.1"
+            },
+            "require-dev": {
+                "npm-asset/zuul": "~1.0.9"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-bugs": {
+                    "url": "https://github.com/defunctzombie/node-util/issues"
+                },
+                "npm-asset-main": "./util.js",
+                "npm-asset-directories": [],
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git://github.com/defunctzombie/node-util"
+                },
+                "npm-asset-scripts": {
+                    "test": "node test/node/*.js && zuul test/browser/*.js"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joyent",
+                    "url": "http://www.joyent.com"
+                }
+            ],
+            "description": "Node.JS util module",
+            "homepage": "https://github.com/defunctzombie/node-util",
+            "keywords": [
+                "util"
+            ]
         },
         {
             "name": "phpdocumentor/reflection-common",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
@@ -443,16 +1495,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -484,7 +1536,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -535,16 +1587,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "dev-master",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "d883566b83ae601a50b38b249e92450dc57cf875"
+                "reference": "58a8137754bc24b25740d4281399a4a3596058e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/d883566b83ae601a50b38b249e92450dc57cf875",
-                "reference": "d883566b83ae601a50b38b249e92450dc57cf875",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/58a8137754bc24b25740d4281399a4a3596058e0",
+                "reference": "58a8137754bc24b25740d4281399a4a3596058e0",
                 "shasum": ""
             },
             "require": {
@@ -593,30 +1645,29 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-07-19 16:08:43"
+            "time": "2016-06-07 08:13:47"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "dev-master",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "40103f9b335f1d84daed099f180b9de12ba080e7"
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/40103f9b335f1d84daed099f180b9de12ba080e7",
-                "reference": "40103f9b335f1d84daed099f180b9de12ba080e7",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0",
+                "php": ">=5.3.3",
                 "phpunit/php-file-iterator": "~1.3",
                 "phpunit/php-text-template": "~1.2",
-                "phpunit/php-token-stream": "^1.4.2",
-                "sebastian/code-unit-reverse-lookup": "~1.0",
-                "sebastian/environment": "^1.3.2 || ^2.0",
-                "sebastian/version": "~1.0|~2.0"
+                "phpunit/php-token-stream": "~1.3",
+                "sebastian/environment": "^1.3.2",
+                "sebastian/version": "~1.0"
             },
             "require-dev": {
                 "ext-xdebug": ">=2.1.4",
@@ -656,11 +1707,11 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-04 03:45:55"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
@@ -792,16 +1843,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "dev-master",
+            "version": "1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644"
+                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
-                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
+                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
                 "shasum": ""
             },
             "require": {
@@ -837,20 +1888,20 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-09-23 14:46:55"
+            "time": "2015-09-15 10:49:45"
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.x-dev",
+            "version": "4.8.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "41433b0d64caa3f2a73e415596dfa73490c262fc"
+                "reference": "c062dddcb68e44b563f66ee319ddae2b5a322a90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/41433b0d64caa3f2a73e415596dfa73490c262fc",
-                "reference": "41433b0d64caa3f2a73e415596dfa73490c262fc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c062dddcb68e44b563f66ee319ddae2b5a322a90",
+                "reference": "c062dddcb68e44b563f66ee319ddae2b5a322a90",
                 "shasum": ""
             },
             "require": {
@@ -909,11 +1960,11 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-08-28 06:58:45"
+            "time": "2016-07-21 06:48:14"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.3.x-dev",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
@@ -968,53 +2019,8 @@
             "time": "2015-10-02 06:51:40"
         },
         {
-            "name": "sebastian/code-unit-reverse-lookup",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "c36f5e7cfce482fde5bf8d10d41a53591e0198fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/c36f5e7cfce482fde5bf8d10d41a53591e0198fe",
-                "reference": "c36f5e7cfce482fde5bf8d10d41a53591e0198fe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
-                }
-            ],
-            "description": "Looks up which function or method a line of code belongs to",
-            "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2016-02-13 06:45:14"
-        },
-        {
             "name": "sebastian/comparator",
-            "version": "dev-master",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
@@ -1078,7 +2084,7 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "dev-master",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
@@ -1130,28 +2136,28 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "dev-master",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "b429478521ee551c5622fec271a2b3bf99de1619"
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/b429478521ee551c5622fec271a2b3bf99de1619",
-                "reference": "b429478521ee551c5622fec271a2b3bf99de1619",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.0"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -1176,11 +2182,11 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-08-18 05:48:30"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",
-            "version": "dev-master",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
@@ -1298,16 +2304,16 @@
         },
         {
             "name": "sebastian/recursion-context",
-            "version": "dev-master",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "7ff5b1b3dcc55b8ab8ae61ef99d4730940856ee7"
+                "reference": "913401df809e99e4f47b27cdd781f4a258d58791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/7ff5b1b3dcc55b8ab8ae61ef99d4730940856ee7",
-                "reference": "7ff5b1b3dcc55b8ab8ae61ef99d4730940856ee7",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/913401df809e99e4f47b27cdd781f4a258d58791",
+                "reference": "913401df809e99e4f47b27cdd781f4a258d58791",
                 "shasum": ""
             },
             "require": {
@@ -1347,7 +2353,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-01-28 05:39:29"
+            "time": "2015-11-11 19:50:13"
         },
         {
             "name": "sebastian/version",
@@ -1386,31 +2392,25 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "dev-master",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "aa8be2235b5dd4e472424552390609f61996f5ab"
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/aa8be2235b5dd4e472424552390609f61996f5ab",
-                "reference": "aa8be2235b5dd4e472424552390609f61996f5ab",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+                "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
-            "require-dev": {
-                "symfony/console": "~2.8|~3.0"
-            },
-            "suggest": {
-                "symfony/console": "For validating YAML files using the lint command"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1437,24 +2437,24 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-02 02:14:06"
+            "time": "2016-10-24 18:41:13"
         },
         {
             "name": "webmozart/assert",
-            "version": "dev-master",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "8444f2ac9f86342665cdae47b6d3ea6e07794456"
+                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/8444f2ac9f86342665cdae47b6d3ea6e07794456",
-                "reference": "8444f2ac9f86342665cdae47b6d3ea6e07794456",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/bb2d123231c095735130cc8f6d31385a44c7b308",
+                "reference": "bb2d123231c095735130cc8f6d31385a44c7b308",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0"
+                "php": "^5.3.3|^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
@@ -1487,7 +2487,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-08-18 09:30:53"
+            "time": "2016-08-09 15:02:57"
         }
     ],
     "aliases": [],
@@ -1495,7 +2495,7 @@
     "stability-flags": {
         "bower-asset/jquery": 0
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.4.0",
