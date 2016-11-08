@@ -6,6 +6,6 @@ use yii\web\AssetBundle;
 
 class SinonAsset extends AssetBundle
 {
-    public $sourcePath = '@node_modules/sinon/pkg';
+    public $sourcePath = '@vendor/npm/sinon/lib';
     public $js = ['sinon.js'];
 }

@@ -57,6 +57,7 @@
         "source": "https://github.com/yiisoft/yii2"
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "replace": {
         "yiisoft/yii2": "self.version"
     },
@@ -78,7 +79,8 @@
         "cebe/indent": "*",
         "bower-asset/mocha": "^3.1.2",
         "bower-asset/chai": "^3.5.0",
-        "bower-asset/leche": "^2.1.2"
+        "bower-asset/leche": "^2.1.2",
+        "npm-asset/sinon": "^1.17.6"
     },
     "suggest": {
         "yiisoft/yii2-coding-standards": "you can use this package to check for code style issues when contributing to yii"
